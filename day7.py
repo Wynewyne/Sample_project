@@ -10,7 +10,7 @@ Original file is located at
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-mydata = pd.read_csv(r'C:\Users\hp\Documents\Simbolo_DS\prjsample\prjsample\buycomputer.csv')
+mydata = pd.read_csv('buycomputer.csv')
 
 # Printing the dataswet shape
 print ("Dataset Length: ", len(mydata))
